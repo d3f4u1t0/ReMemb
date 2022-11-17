@@ -53,6 +53,7 @@ function resetGame()
     showTime = document.getElementById("time");
     timer = 30;
     initialTimer = 30;
+    numbers = numbers.sort(() => {return Math.random()-0.5});
     showHits.innerHTML = `Aciertos: 0`;
     showTime.innerHTML = `Tiempo: 30s`
     showMoves.innerHTML = `Movimientos: 0`;
