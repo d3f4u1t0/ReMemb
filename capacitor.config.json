@@ -1,0 +1,6 @@
+{
+  "appId": "com.rememb.app",
+  "appName": "ReMemb",
+  "webDir": "assets",
+  "bundledWebRuntime": false
+}

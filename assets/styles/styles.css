@@ -1,0 +1,118 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    max-height: 600px;
+    max-width: 200px;
+}
+main{
+    width: 1280px;
+    height: 720px;
+    display: flex;
+}
+.cards{
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+.buttonCard{
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 2%;
+}
+button:hover{
+    cursor: pointer;
+}
+.score{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 300px;
+    height: 360px;
+    margin-left: 60px;
+}
+.statistics{
+    border: 1px solid whitesmoke;
+    height: 80px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+.hits{
+    border: 1px solid whitesmoke;
+    height: 50px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 80%;
+}
+.logo{
+    width: 20%;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
+
+.section{
+    width: 740px;
+    height: 360px;
+    border:  1px solid black;
+    background-color: rgba(255,255,255,0.2);
+}
+
+h1{
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 275px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+table{
+    margin-left: 20px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(100px, auto);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 740px;
+    height: 309px;
+}
+
+.credits{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
