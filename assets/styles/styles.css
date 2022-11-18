@@ -3,17 +3,20 @@ body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    max-height: 600px;
-    max-width: 200px;
+    max-height: 375px;
+    max-width: 812px;
 }
 main{
-    width: 1280px;
-    height: 720px;
+    width: 812px;
+    height: 375px;
     display: flex;
 }
 .cards{
     padding: 0 10px 10px 10px;
     border-radius: 8px;
+    width: 245px;
+    height: 117px;
+    margin-left: 40px;
 }
 h1{
     text-align: center;
@@ -33,23 +36,24 @@ button:hover{
 .score{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    width: 300px;
-    height: 360px;
+    width: 265px;
+    height: 220px;
     margin-left: 60px;
+    font-size: 20px;
 }
 .statistics{
     border: 1px solid whitesmoke;
-    height: 80px;
+    height: 50px;
     border-radius: 8px;
-    padding: 8px 20px;
     box-sizing: border-box;
+    font-size: 20px;
 }
 .hits{
     border: 1px solid whitesmoke;
     height: 50px;
     border-radius: 8px;
-    padding: 8px 20px;
     box-sizing: border-box;
+    font-size: 20px;
 }
 footer{
     text-align: center;
@@ -70,8 +74,8 @@ img{
 }
 
 .section{
-    width: 740px;
-    height: 360px;
+    width: 812px;
+    height: 375px;
     border:  1px solid black;
     background-color: rgba(255,255,255,0.2);
 }
@@ -86,25 +90,35 @@ h1{
     text-align: center;
 }
 
+h2{
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
 table{
     margin-left: 20px;
 }
 
 .wrapper {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
     grid-auto-rows: minmax(100px, auto);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    width: 740px;
-    height: 309px;
+    width: 810px;
+    height: 320px;
 }
 
 .credits{
-    display: flex;
     align-items: center;
     text-align: center;
+    width: 591px;
+    height: 334px;
 }
 
 p{

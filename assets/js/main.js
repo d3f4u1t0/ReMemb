@@ -36,6 +36,11 @@ function countTimer(){
 }
 
 function blockCards(){
+    showedCards = 0;
+    card1 = null;
+    card2 = null;
+    firstResult = null;
+    secondResult = null;
     for (let i = 0; i<=15; i++) {
         let blockedCard = document.getElementById(i);
         blockedCard.innerHTML = `<img src="./img/${numbers[i]}.png" alt="">`;
@@ -88,6 +93,10 @@ function show(id) {
         moves++;
         showMoves.innerHTML = `Movimientos: ${moves}`;
         if(firstResult == secondResult) {
+        card1 = null;
+        card2 = null;
+        firstResult = null;
+        secondResult = null;
             showedCards = 0;
             hits++;
             showHits.innerHTML = `Aciertos: ${hits}`;
