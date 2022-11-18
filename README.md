@@ -1,4 +1,4 @@
-# apps_moviles
+# ReMemb
 ReMemb
 Aplicaciones moviles UPB 
 # EQUIPO
